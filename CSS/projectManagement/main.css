@@ -1,0 +1,65 @@
+
+
+body,html{
+
+  font-family:Montserrat;
+
+  height:auto;
+  width:100%;
+
+}
+
+
+
+.philosophy,.listOfProjects,.freeConsultation,.ourPride,
+.ourServicesfirstBlock, .ourServicessecondBlock,
+.visit{
+
+  width:100%;
+  max-width:1200px;
+
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+
+.stagesOfCooperation{
+
+  width:100%;
+  max-width:630px;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+
+
+
+
+
+
+
+
+.container{
+
+  width:100%;
+
+  height:auto;
+
+}
+
+
+.darkBackground{
+
+
+ background:#343434;
+
+
+
+}
+
+
+
+
+

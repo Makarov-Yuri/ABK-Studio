@@ -1,0 +1,407 @@
+
+
+
+
+
+
+/* HEADER */
+.header {
+    position: relative;
+    background: url('../../IMG/commercialDesign/header/header.png') 100% 100%/ cover no-repeat;
+    background-position-y: center;
+    height: 100vh;
+}
+
+.header-content {
+    display: flex;
+}
+
+.logo {
+    padding: 51px 0px 0px 29px;
+    cursor: pointer;
+}
+
+.nav {
+    margin: 204px 0px 0px 59px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    height: 118px;
+}
+
+.nav-menu {
+    display: flex;
+    column-gap: 6px;
+    color:white;
+}
+
+.nav p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.nav:hover {
+    color: rgba(255, 199, 0, 0.65);
+}
+
+.nav:active {
+    position: relative;
+    right: 1px;
+}
+
+.header__imgs {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 28px;
+}
+
+.header__img__arrow {
+    padding-left: 51px;
+    cursor: pointer;
+    bottom: 30px;
+}
+
+.header__img__arrow:hover {
+    transform: scale(1.1);
+}
+
+.header__img__arrow img {
+    background-color: #1f1f1f;
+    border-radius: 35px;
+}
+
+.header__img_chat {
+    padding-right: 58px;
+    cursor: pointer;
+}
+
+/*.header__img_chat:hover {
+    transform: scale(1.1);
+}*/
+
+.header-title {
+    padding: 213px 0 0 67px;
+}
+
+.header-title .ellipse {
+    position: absolute;
+    width: 163px;
+    height: 163px;
+    right: 179px;
+    top: 60px;
+
+    background: rgba(255, 199, 0, 0.65);
+    filter: blur(151.5px);
+}
+
+.header-title .ellipse-two {
+    position: absolute;
+    width: 163px;
+    height: 163px;
+    left: 191px;
+    top: 248px;
+    background: rgba(255, 199, 0, 0.65);
+    filter: blur(151.5px);
+}
+
+.header-content-text h1 {
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 66px;
+    color:white;
+}
+
+.header-content-text p {
+    padding-top: 14px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color:white;
+}
+
+.header-title hr {
+    margin-top: 11px;
+    width: 160px;
+    height: 2px;
+    background: #fff;
+}
+
+.btn-one {
+    position: relative;
+    background: #FFC700;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    padding: 22px 38px 23px 35px;
+    margin: 59px 0 45px;
+    color: #1F1F1F;
+    z-index: 5;
+}
+
+.btn-one:hover {
+    color: #fff;
+}
+
+.btn-one:active {
+    top: 1px;
+}
+
+
+
+
+
+/* HEADER media*/
+@media (max-width: 1500px) {
+    .logo {
+        padding: 41px 0px 0px 23px;
+    }
+
+    .header-content-text h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+
+    .header-content-text p {
+        padding-top: 14px;
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .header {
+        height: 100%;
+    }
+
+    .logo {
+        padding: 32px 0px 0px 18px;
+    }
+
+    .nav {
+        margin: 127px 0px 0px 40px;
+        height: 74px;
+    }
+
+    .nav-menu {
+        display: flex;
+        column-gap: 6px;
+    }
+
+    .nav p {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .header__imgs {
+        padding-bottom: 28px;
+    }
+
+    .header__img__arrow {
+        padding-left: 32px;
+        bottom: 30px;
+    }
+
+    .header__img__arrow img {
+        background-color: #1f1f1f;
+        border-radius: 35px;
+    }
+
+    .header__img_chat {
+        padding-right: 36px;
+        cursor: pointer;
+    }
+
+    .header-title {
+        padding: 133px 0 0 42px;
+    }
+
+    .header-title .ellipse {
+        position: absolute;
+        width: 163px;
+        height: 163px;
+        right: 179px;
+        top: 60px;
+
+        background: rgba(255, 199, 0, 0.65);
+        filter: blur(151.5px);
+    }
+
+    .header-title .ellipse-two {
+        position: absolute;
+        width: 163px;
+        height: 163px;
+        left: 191px;
+        top: 248px;
+        background: rgba(255, 199, 0, 0.65);
+        filter: blur(151.5px);
+    }
+
+    .header-content-text h1 {
+        font-size: 34px;
+        line-height: 41px;
+    }
+
+    .header-content-text p {
+        padding-top: 9px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .header-title hr {
+        margin-top: 7px;
+        width: 100px;
+        height: 1px;
+    }
+
+    .btn-one {
+        position: relative;
+        background: #FFC700;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        padding: 14px 23px 14px 22px;
+        margin: 37px 0 45px;
+        color: #1F1F1F;
+        z-index: 5;
+    }
+
+    .btn-one:hover {
+        color: #fff;
+    }
+
+    .btn-one:active {
+        top: 1px;
+    }
+
+    .header__burger {
+        display: block;
+        position: relative;
+        width: 16px;
+        height: 9px;
+        z-index: 3;
+        transform: rotate(90deg);
+        cursor: pointer;
+    }
+
+    .header__burger span {
+        position: absolute;
+        background-color: #fff;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        top: 4px;
+        transition: all 0.3s ease 0s;
+        margin: -1px 0 0 2px;
+    }
+
+    .header__burger:before,
+    .header__burger:after {
+        content: '';
+        background-color: #fff;
+        position: absolute;
+        width: 16px;
+        height: 1px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+        margin: -2px 0px 0px 2px;
+    }
+
+    .header__burger:before {
+        top: 0;
+    }
+
+    .header__burger:after {
+        bottom: 0;
+        width: 12px;
+    }
+}
+
+@media (max-width: 900px) {
+    .header-content-text h1 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+}
+
+@media (max-width: 500px) {
+    .header-content-text h1 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .logo-center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav {
+        margin: 103px 0px 0px 14px;
+    }
+
+    .header__imgs {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 28px;
+        top: -120px;
+    }
+
+    .header-title {
+        padding: 218px 10px 0px;
+        text-align: center;
+        max-width: 327px;
+    }
+
+    .header-title hr {
+        margin: 9px auto 0px;
+    }
+
+    .header__img__arrow {
+        padding-left: 9px;
+    }
+
+    .header__img_chat {
+        padding-right: 13px;
+    }
+
+    .btn-one {
+        font-size: 10px;
+        line-height: 12px;
+        margin: 40px 0 43px;
+        padding: 16px 38px 17px 37px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

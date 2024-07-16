@@ -1,0 +1,223 @@
+
+
+
+.ourServices{
+
+	//width:100%;
+
+}
+
+.ourServicesfirstBlock{
+
+	position:relative;
+	padding-top:180px;
+	padding-bottom:60px;
+  display:grid;
+  grid-auto-rows:min-content;
+  grid-row-gap:20px;
+  grid-template-columns:repeat(auto-fit, max(150px,18%));
+  grid-template-columns:repeat(auto-fit, 150px);
+  justify-items:center;
+  justify-content:space-between;
+  grid-column-gap:20px;
+
+	padding-left:50px;
+	padding-right:50px;
+
+
+
+
+}
+
+.ourServicesfirstBlock>.title{
+
+	font-size: 34px;
+	line-height: 41px;
+	color: #1F1F1F;
+	font-weight: 600;
+	position:absolute;
+	top:80px;
+	left:50px;
+
+}
+
+
+
+@media(max-width:780px){
+
+	.ourServicesfirstBlock>.title{
+
+  		left:0px;
+  		width:100%;
+  		text-align:center;
+
+	}
+
+	.ourServicesfirstBlock{
+
+		justify-content:space-evenly;
+		padding-left:0px;
+		padding-right:0px;
+
+	}
+
+}
+
+
+.ourServicesfirstBlock>.service{
+
+	max-width:250px;
+
+}
+
+.ourServicesfirstBlock>.service>p:nth-child(1){
+
+	font-weight:600;
+	font-size:15px;
+	line-height:18px;
+	text-transform:uppercase;
+	margin-bottom:40px;
+	max-width:150px;
+
+}
+
+.ourServicesfirstBlock>.service>p:nth-child(2){
+
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	color: #1F1F1F;
+
+}
+
+
+
+@media(max-width:320px){
+
+	.ourServicesfirstBlock>.service>p{
+
+
+		text-align:center;
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ourServicessecondBlock{
+
+	height:300px;
+	width:100%;
+	background-color:#343434;
+	padding-left:50px;
+	padding-right:20px;
+	padding-top:80px;
+	position:relative;
+
+}
+
+.ourServicessecondBlock>img{
+
+background-color:#343434;
+
+
+opacity: 0.6;
+
+position:absolute;
+
+right:0px;
+top:0px;
+
+}
+
+.ourServicessecondBlock>.title{
+
+	color:white;
+	font-weight: 600;
+	font-size: 34px;
+	line-height: 41px;
+	margin-bottom:18px;
+
+}
+
+.ourServicessecondBlock>.content{
+
+
+	color:white;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	margin-bottom:40px;
+
+}
+
+.ourServicessecondBlock>button{
+
+	width:232px;
+	height:45px;
+	background:#FFC700;
+	color:black;
+	font-weight:600;
+	font-size:14px;
+	line-height:17px;
+
+}
+
+
+
+@media(max-width:780px){
+
+	.ourServicessecondBlock>.title{
+
+		font-size: 24px;
+		line-height: 29px;
+
+	}
+
+
+	.ourServicessecondBlock>.content{
+
+		font-weight: 400;
+		font-size: 13px;
+		line-height: 16px;
+
+
+	}
+
+	.ourServicessecondBlock>button{
+
+		width:184px;
+		height:45px;
+		left:46px;
+
+	}
+
+	.ourServicessecondBlock{
+
+		padding-left:50px;
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+

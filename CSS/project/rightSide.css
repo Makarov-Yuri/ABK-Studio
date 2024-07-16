@@ -1,0 +1,308 @@
+
+.rightSide{
+
+	padding-left:30px;
+
+}
+
+
+.rightSide>.title{
+
+	margin-bottom:30px;
+
+}
+
+.rightSide>.title>.name{
+
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color:white;
+	margin-bottom:5px;
+
+}
+
+
+
+.rightSide>.title>.line{
+
+	background:white;
+	width:100px;
+	height:1px;
+
+}
+
+
+
+.rightSide>.title>.location{
+
+	display:flex;
+	margin-top:10px;
+
+}
+
+
+.rightSide>.title>.location>img{
+
+	background:white;
+	width:15px;
+	height:auto;
+	margin-right:5px;
+
+}
+
+.rightSide>.title>.location>.name{
+
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 16px;
+	text-transform: uppercase;
+	color:white;
+
+}
+
+
+
+
+
+.rightSide>.mainInformation{
+
+	display:flex;
+	flex-wrap:wrap;
+
+}
+
+
+
+.rightSide>.mainInformation>li{
+
+display:flex;
+align-items:center;
+justify-content:center;
+width:200px;
+margin-bottom:30px;
+
+
+
+}
+
+
+.rightSide>.mainInformation>li>.circle{
+
+	width:90px;
+	height:90px;
+	border-radius:90px;
+	color:white;
+	background: #171717;
+
+	display:flex;
+	align-items:center;
+	justify-content:center;
+
+	margin-right:20px;
+
+}
+
+.rightSide>.mainInformation>li>.text{
+
+	color:white;
+	max-width:50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.rightSide>.description>.title{
+
+	font-weight:600;
+	font-size:20px;
+	line-height:24px;
+	text-transform:uppercase;
+	color:white;
+	margin-bottom:5px;
+
+}
+
+
+.rightSide>.description>.text{
+
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	color:white;
+
+}
+
+
+
+
+
+
+
+
+
+
+.rightSide>.orderProject{
+
+	margin-top:80px;
+
+}
+
+
+.rightSide>.orderProject>.title{
+
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color:white;
+	margin-bottom:35px;
+
+}
+
+
+.rightSide>.orderProject>button{
+
+	max-width:300px;
+	width:100%;
+	height:45px;
+	font-style:normal;
+	font-weight:600;
+	font-size: 14px;
+	line-height: 17px;
+	background: #FFC700;
+	padding:5px;
+
+}
+
+
+
+
+
+
+@media(max-width:510px){
+
+
+
+
+
+.rightSide{
+
+	padding-left:10px;
+	padding-right:10px;
+
+}
+
+
+	.rightSide>.title{
+
+		margin-bottom:30px;
+		display:none;
+
+	}
+
+
+.rightSide>.description>.title{
+
+text-align:center;
+
+}
+
+
+
+
+
+.rightSide>.mainInformation{
+
+	display:flex;
+	flex-wrap:wrap;
+
+
+
+}
+
+
+
+
+.rightSide>.mainInformation>li{
+
+display:flex;
+align-items:center;
+justify-content:center;
+width:200px;
+margin-bottom:30px;
+
+
+width:max-content;
+margin-right:15px;
+
+
+
+}
+
+
+.rightSide>.mainInformation>li>.circle{
+
+	width: 60px;
+	height: 60px;
+	border-radius:60px;
+
+
+	margin-right:20px;
+
+}
+
+.rightSide>.mainInformation>li>.text{
+
+	color:white;
+	max-width:50px;
+
+}
+
+
+
+
+.rightSide>.orderProject>.title{
+
+	text-align:center;
+
+}
+
+
+.rightSide>.orderProject{
+
+display:flex;
+flex-direction:column;
+align-items:center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+

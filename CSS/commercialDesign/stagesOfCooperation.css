@@ -1,0 +1,234 @@
+
+.stagesOfCooperation{
+
+	padding-top:80px;
+	position:relative;
+	padding-bottom:40px;
+
+}
+
+
+.stagesOfCooperation>.title{
+
+	font-weight:600;
+	font-size:34px;
+	line-height:41px;
+	width:100%;
+	text-align:center;
+	margin-bottom:60px;
+
+}
+
+@media(max-width:340px){
+
+	.stagesOfCooperation>.title{
+
+		font-size:28px;
+
+	}
+
+}
+
+
+
+
+
+.stagesOfCooperation>.stage{
+
+	border-color:#A5A5A5;
+	border-style:solid;
+	position:relative;
+	padding-left:34px;
+	padding-right:20px;
+	width:50%;
+	padding-bottom:39px;
+
+}
+
+
+
+.stagesOfCooperation>.stage:nth-of-type(odd){
+
+	border-width:0px 0px 0px 2px;
+	padding-left:35px;
+	padding-right:20px;
+	width:50%;
+	left:50%;
+	
+}
+
+
+.stagesOfCooperation>.stage:nth-of-type(even){
+
+	border-width:0px 2px 0px 0px;
+	padding-left:20px;
+	padding-right:35px;
+	width:calc(50% + 2px);
+	text-align:end;
+
+	
+}
+
+.stagesOfCooperation>.stage:last-of-type{
+
+	border-width:0px 0px 0px 0px;
+	position:relative;
+	right:2px;
+
+}
+
+
+
+.stagesOfCooperation>.stage>.circle{
+
+	width:16px;
+	height:16px;
+	border-radius:16px;
+	background:#A5A5A5;
+	position:absolute;
+	top:-8px;
+
+}
+
+
+.stagesOfCooperation>.stage:nth-of-type(odd)>.circle{
+
+	left:-9px;
+
+}
+
+
+.stagesOfCooperation>.stage:nth-of-type(even)>.circle{
+
+	right:-9px;
+
+}
+
+
+.stagesOfCooperation>.stage>.number{
+
+	font-weight:600;
+	font-size:34px;
+	line-height:41px;
+	color:#A5A5A5;
+
+}
+
+
+.stagesOfCooperation>.stage>.title{
+
+	font-weight:600;
+	font-size:15px;
+	line-height:18px;
+	text-transform: uppercase;
+	margin-bottom:7px;
+
+}
+
+
+.stagesOfCooperation>.stage>.description{
+
+	font-weight:400;
+	font-size:15px;
+	line-height:18px;
+	
+}
+
+
+
+
+
+@media(max-width:500px){
+
+	.stagesOfCooperation{
+
+		padding-top:40px;
+		padding-left:45px;
+
+	}
+
+
+	.stagesOfCooperation>.title{
+
+		margin-bottom:23px;
+
+	}
+
+
+
+	.stagesOfCooperation>.stage{
+
+		height:137px;
+		padding-bottom:40px;
+		height:min-content;
+			
+	}
+
+
+
+	.stagesOfCooperation>.stage:nth-of-type(odd){
+
+		left:0%;
+		width:calc(100% - 23px);
+		padding-left:35px;
+		border-width:0px 0px 0px 2px;
+			
+	}
+
+
+	.stagesOfCooperation>.stage:nth-of-type(even){
+
+		text-align:start;
+		width:calc(100% - 23px);
+		padding-left:35px;
+		border-width:0px 0px 0px 2px;
+		
+	}
+
+
+	.stagesOfCooperation>.stage:last-of-type{
+
+		border-width:0px 0px 0px 0px;
+		position:relative;
+		left:2px;
+
+	}
+	
+
+	.stagesOfCooperation>.stage>.circle{
+
+		left:-9px;
+
+	}
+
+
+	.stagesOfCooperation>.stage>.circle{
+
+		left:-9px;
+
+	}
+
+
+	.stagesOfCooperation>.stage>.number{
+
+		position:relative;
+		top:-20px;
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
